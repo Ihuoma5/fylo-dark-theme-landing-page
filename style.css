@@ -45,6 +45,9 @@ button {
   font-family: var(--raleway);
   font-weight: 400;
 }
+button:hover{
+  background-image: var(--cyan-call-to-action-gradient);
+}
 p {
   font-family: var(--raleway);
   line-height: 1.5;
@@ -74,12 +77,14 @@ nav {
   padding: 2rem;
   font-family: var(--raleway);
   text-align: center;
+  background-image: url(./images/bg-curvy-mobile.svg);
 }
 .intro h1 {
   padding: 1rem;
   font-weight: 700;
   font-family: var(--raleway);
   font-size: 1.6rem;
+  
 }
 .intro p {
   font-weight: 400;
@@ -187,6 +192,9 @@ input {
   font-family: var(--raleway);
   font-weight: 400;
 }
+.section5 button:hover{
+  background-image: var(--cyan-call-to-action-gradient);
+}
 /* Footer */
 footer {
   background-color: var(--footer-background);
@@ -228,6 +236,10 @@ footer div ul li {
 .social-media ul li{
   padding-right: 1rem;
 }
+.social-media ul li:hover{
+  color: var(--cyan-call-to-action-gradient);
+}
+
 
 
 @media screen and (min-width:1024px) {
@@ -236,8 +248,9 @@ footer div ul li {
     cursor: pointer;
   }
  .intro{
-   padding:2rem 10rem;
+   padding:2rem 25rem;
  }
+
  .nav-items ul li:hover{
   text-decoration: underline;
   cursor: pointer;
@@ -256,9 +269,11 @@ footer div ul li {
 
 .access-lg{
   display: flex;
+  padding: 4rem;
 }
 .access-lg2{
   display: flex;
+  padding: 4rem;
 }
 .access2{
   display: block;
@@ -270,5 +285,44 @@ footer div ul li {
 }
 .div2 .access-img{
   padding-top: 1rem;
+}
+.section3{
+  display: flex;
+}
+.section3 a:hover {
+  color: var(--white);
+}
+.section3 a img:hover{
+  color: var(--white);
+}
+.section4{
+  display: flex;
+  padding: 3.4rem;
+}
+.section5{
+  margin: auto;
+  width: 50rem;
+  z-index: 2;
+}
+input{
+  padding-right:10rem;
+}
+.footer{
+  display: flex;
+}
+.location{
+  width: 25rem;
+  margin:0 2rem;
+}
+.contact{
+  width: 15rem;
+  
+}
+footer div ul{
+  margin-left: 3rem;
+  width: 7rem;
+}
+.footer-item{
+  padding-top: 0;
 }
 }
