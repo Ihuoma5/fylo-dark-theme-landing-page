@@ -288,6 +288,18 @@ footer div ul li {
 }
 .section3{
   display: flex;
+  padding: 3rem;
+}
+.section3 img{
+  width: 30rem;
+}
+.section3a{
+  padding:0 5rem;
+}
+.section3a h2{
+  padding-bottom: 1rem;
+  padding-right: 20rem;
+  font-size: 2rem;
 }
 .section3 a:hover {
   color: var(--white);
