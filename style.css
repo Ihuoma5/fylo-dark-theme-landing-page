@@ -222,6 +222,11 @@ footer div ul li {
     padding-bottom: 1rem;
     font-family: var(--open-sans);
     font-weight: 400;
+    color: rgb(216, 211, 211);
+}
+footer div ul li:hover{
+  color: var(--white);
+  cursor: pointer;
 }
 .footer-item{
     padding-top: 4rem;
